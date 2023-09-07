@@ -17,7 +17,7 @@ public class School implements ICalcule {
         this.students = students;
         this.teachers = teachers;
         this.totalMoneyEarned = 0.0;
-        this.totalMoneySpent = 0.0;
+        this.totalMoneySpent = totalMoneySpent;
     }
 
     public List<Student> getStudents() {
@@ -66,4 +66,5 @@ public class School implements ICalcule {
         totalMoney = totalMoneyEarned - totalMoneySpent;
         return totalMoney;
     }
+
 }

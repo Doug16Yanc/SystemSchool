@@ -14,7 +14,7 @@ public class Student implements ICalcule {
     }
     public Student(int id, String name, double grade){
         this.debtsPaid = 0.0;
-        this.debtsTotal = 200.00;
+        this.debtsTotal = 2000.00;
         this.id = id;
         this.name = name;
         this.grade = grade;
@@ -62,7 +62,7 @@ public class Student implements ICalcule {
     @Override
     public String toString(){
         return "Student name: " + name +
-                "\nDebts remaining: " + calculate();
+                "\nDebts remaining: $ " + calculate();
     }
 
 }

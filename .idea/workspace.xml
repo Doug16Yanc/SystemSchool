@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Correction of the random numbers" />
+    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Correction of conditional execution in the repeating loop">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemSchool/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemSchool/domain/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/domain/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemSchool/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemSchool/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/domain/Teacher.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694123761476</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correction of conditional execution in the repeating loop">
+      <created>1694124014115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694124014115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -87,7 +100,8 @@
     <MESSAGE value="Create entities of the domain" />
     <MESSAGE value="First code in the application" />
     <MESSAGE value="Correction of the random numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction of the random numbers" />
+    <MESSAGE value="Correction of conditional execution in the repeating loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of conditional execution in the repeating loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

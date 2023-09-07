@@ -44,7 +44,6 @@ public class Teacher implements ICalcule {
 
     @Override
     public double calculate() {
-        double salary = 0.0;
         salaryEarned += salary;
         School.updateTotalMoneySpent(salary);
         return salaryEarned;
@@ -52,6 +51,6 @@ public class Teacher implements ICalcule {
     @Override
     public String toString(){
         return "Name of the teacher: " + name +
-                "\nTotal salary earned :" + calculate();
+                "\nTotal salary earned : $ " + calculate();
     }
 }
