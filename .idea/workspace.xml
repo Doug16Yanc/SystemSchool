@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Create entities of the domain">
-      <change afterPath="$PROJECT_DIR$/src/SystemSchool/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Correction of the random numbers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,14 +64,30 @@
       <option name="project" value="LOCAL" />
       <updated>1694119250854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="First code in the application">
+      <created>1694123577148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694123577164</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Correction of the random numbers">
+      <created>1694123761476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694123761476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Create interface to calculate" />
     <MESSAGE value="Create entities of the domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create entities of the domain" />
+    <MESSAGE value="First code in the application" />
+    <MESSAGE value="Correction of the random numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of the random numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

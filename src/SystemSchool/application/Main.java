@@ -32,24 +32,27 @@ public class Main {
             System.out.println("A integer number to fill in or 0 to end:\n");
             number = sc.nextInt();
 
-            System.out.println("Please, the id:");
-            int id = sc.nextInt();
+            if (number != 0){
+                System.out.println("Please, the id:");
+                int id = sc.nextInt();
 
-            sc.nextLine();
+                sc.nextLine();
 
-            System.out.println("Name of the teacher:");
-            String name = sc.nextLine();
+                System.out.println("Name of the teacher:");
+                String name = sc.nextLine();
 
-            System.out.println("Please, informe the salary (in $) of this master:");
-            double salary = sc.nextDouble();
+                System.out.println("Please, informe the salary (in $) of this master:");
+                double salary = sc.nextDouble();
 
-            Teacher te = new Teacher(id, name, salary);
+                Teacher te = new Teacher(id, name, salary);
 
-            teachers.add(te);
+                teachers.add(te);
 
-            Random num = new Random();
+                Random num = new Random();
 
-            System.out.println("Process conclused of number " + num.nextInt(100000000));
+                System.out.println("Process conclused of number " + num.nextInt(100000000));
+            }
+
         }
         while(number != 0);
 
@@ -59,24 +62,27 @@ public class Main {
             System.out.println("A integer number to fill in or 0 to end:\n");
             number1 = sc.nextInt();
 
-            System.out.println("Please, the id:");
-            int id1 = sc.nextInt();
+            if (number1 != 0){
+                System.out.println("Please, the id:");
+                int id1 = sc.nextInt();
 
-            sc.nextLine();
+                sc.nextLine();
 
-            System.out.println("Name of the student:");
-            String name1 = sc.nextLine();
+                System.out.println("Name of the student:");
+                String name1 = sc.nextLine();
 
-            System.out.println("Average grade of this student:");
-            double grade = sc.nextDouble();
+                System.out.println("Average grade of this student:");
+                double grade = sc.nextDouble();
 
-            Student st = new Student(id1, name1, grade);
+                Student st = new Student(id1, name1, grade);
 
-            students.add(st);
+                students.add(st);
 
-            Random num1 = new Random();
+                Random num1 = new Random();
 
-            System.out.println("Process conclused of the number " + num1.nextInt(10000000));
+                System.out.println("Process conclused of the number " + num1.nextInt(10000000));
+            }
+
         }
         while(number1 != 0);
 
