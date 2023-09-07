@@ -38,7 +38,7 @@ public class Main {
             sc.nextLine();
 
             System.out.println("Name of the teacher:");
-            String name = sc.next();
+            String name = sc.nextLine();
 
             System.out.println("Please, informe the salary (in $) of this master:");
             double salary = sc.nextDouble();
@@ -49,7 +49,7 @@ public class Main {
 
             Random num = new Random();
 
-            System.out.println("Process conclused of number " + num);
+            System.out.println("Process conclused of number " + num.nextInt(100000000));
         }
         while(number != 0);
 
@@ -65,7 +65,7 @@ public class Main {
             sc.nextLine();
 
             System.out.println("Name of the student:");
-            String name1 = sc.next();
+            String name1 = sc.nextLine();
 
             System.out.println("Average grade of this student:");
             double grade = sc.nextDouble();
@@ -76,7 +76,7 @@ public class Main {
 
             Random num1 = new Random();
 
-            System.out.println("Process conclused of the number " + num1);
+            System.out.println("Process conclused of the number " + num1.nextInt(10000000));
         }
         while(number1 != 0);
 
