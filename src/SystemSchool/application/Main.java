@@ -86,7 +86,27 @@ public class Main {
         }
         while(number1 != 0);
 
+
         School school = new School(students, teachers);
 
+        System.out.println("See the list:\n");
+
+        System.out.println("The teachers, first, of course.\n");
+
+        for(Teacher te1 : teachers){
+            System.out.println(te1);
+        }
+
+        System.out.println("\nNow, the ours dearling students.\n");
+
+        for (Student st1: students){
+            System.out.println(st1);
+        }
+
+        System.out.println("Now, we´ll present the cash of the college:\n");
+
+        System.out.println("Total Earned: $ " + school.getTotalMoneyEarned());
+        System.out.println("\nTotal spent: $ " + school.getTotalMoneySpent());
+        System.out.println("\nTotal cash: $ " + school.calculate());
     }
 }
