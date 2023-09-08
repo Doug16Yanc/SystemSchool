@@ -29,7 +29,7 @@ public class Main {
         System.out.println("Please, fill in the list of the masters:\n");
 
         do{
-            System.out.println("A integer number to fill in or 0 to end:\n");
+            System.out.println("An integer number to fill in or 0 to end:\n");
             number = sc.nextInt();
 
             if (number != 0){
@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Ok, now we´ll fill in the list the data of the students:\n");
 
         do{
-            System.out.println("A integer number to fill in or 0 to end:\n");
+            System.out.println("An integer number to fill in or 0 to end:\n");
             number1 = sc.nextInt();
 
             if (number1 != 0){
