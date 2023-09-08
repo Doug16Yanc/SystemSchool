@@ -15,7 +15,7 @@ public class Teacher implements ICalcule {
         this.id = id;
         this.name = name;
         this.salary = salary;
-        this.salaryEarned = 0.0;
+        this.salaryEarned = salaryEarned;
     }
 
     public int getId() {
@@ -45,7 +45,7 @@ public class Teacher implements ICalcule {
     @Override
     public double calculate() {
         salaryEarned += salary;
-        School.updateTotalMoneySpent(salary);
+        School.updateTotalMoneySpent(salaryEarned);
         return salaryEarned;
     }
     @Override

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Correction of conditional execution in the repeating loop">
+    <list default="true" id="2f90a2a7-d28f-4402-a5fc-5f433dcd5ab9" name="Changes" comment="Test and discover of the logic problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SystemSchool/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SystemSchool/domain/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemSchool/domain/School.java" afterDir="false" />
@@ -33,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "C:/Users/DOUGLAS/Downloads/SystemSchool/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DOUGLAS/Downloads/SystemSchool/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694124014115</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Conclusion of the main">
+      <created>1694125961228</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694125961228</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test and discover of the logic problems">
+      <created>1694125991516</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694125991516</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,7 +115,9 @@
     <MESSAGE value="First code in the application" />
     <MESSAGE value="Correction of the random numbers" />
     <MESSAGE value="Correction of conditional execution in the repeating loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction of conditional execution in the repeating loop" />
+    <MESSAGE value="Conclusion of the main" />
+    <MESSAGE value="Test and discover of the logic problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test and discover of the logic problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

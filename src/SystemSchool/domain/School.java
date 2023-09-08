@@ -58,7 +58,7 @@ public class School implements ICalcule {
         return totalMoneySpent;
     }
     public static void updateTotalMoneySpent(double moneySpent){
-        totalMoneySpent -= moneySpent;
+        totalMoneySpent += moneySpent;
     }
     @Override
     public double calculate() {

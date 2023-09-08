@@ -54,9 +54,7 @@ public class Student implements ICalcule {
 
     @Override
     public double calculate() {
-        double debts = 0.0;
-        debtsPaid += debts;
-        School.updateTotalMoneyEarned(debtsPaid);
+        School.updateTotalMoneyEarned(debtsTotal);
         return debtsTotal - debtsPaid;
     }
     @Override
